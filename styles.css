@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 15px;
+    font-size: large;
+}
+
+#buttgm {
+    background-color: blue;
+}
+#buttga {
+    background-color: greenyellow;
+    top: 20px;
+    position: relative;
+}
+#buttge {
+    background-color: blue;
+}
+#buttwyn {
+    background-color: greenyellow;
+    top: 20px;
+    position: relative;
+
+}
+@media screen and (max-width: 900px) {
+    div {
+    display: block;
+    }
+}
+
+div:nth-child(even) {
+    position: static;
+}

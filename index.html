@@ -2,54 +2,23 @@
 <html>
     <head>
         <title>Greetings</title>
+        <link rel="stylesheet" href="styles.css">
         <h1>Greetings</h1>
         
-        <style>
-            body {
-                text-align: center;
-            }
-
-            button {
-                margin: 20px;
-                padding: 15px;
-                font-size: large;
-            }
-            div {
-                position: relative;
-            }
-            #buttgm {
-                background-color: blue;
-            }
-            #buttga {
-                background-color: greenyellow;
-                top: 20px;
-                position: relative;
-            }
-            #buttge {
-                background-color: blue;
-            }
-            #buttwyn {
-                background-color: greenyellow;
-                top: 20px;
-                position: relative;
-
-            }
-
-        </style>
+        
     </head>
     <body>
         <div class="container">
             <div class="row">
                                     
-        <button id="buttgm" onclick="greetings()">Goodmorning</button>
-        <script src="index.js"></script>
-        <button id="buttga" onclick="greetings()">Goodafternoon</button>
-        <script src="index.js"></script>
-        <button id="buttge" onclick="greetings()">Goodevening</button>
-        <script src="index.js"></script>
-        <button id="buttwyn" onclick="myname()">Whats your name?</button>
+        <button id="buttgm" onclick="greetings('Goodmorning')">Goodmorning</button>
+        
+        <button id="buttga" onclick="greetings('Goodafternoon')">Goodafternoon</button>
+        
+        <button id="buttge" onclick="greetings('Goodevening')">Goodevening</button>
+        <button id="buttwyn" onclick="myname('Whatsyourname?')">Whats your name?</button>
             </div>
-            
+        </div>
         <script src="index.js"></script>
             
         
